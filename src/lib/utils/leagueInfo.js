@@ -7,12 +7,12 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Welcome to the battleground of our fantasy football dynasty league, where legends are made and rivalries never die. Captain Flacco's, led by the one and only Ginger, sits atop the throne after a dominating 2023 season. But don't get too comfortable, champ—there’s a new wave of challengers coming for that crown! Will Ginger's reign continue, or is a new king about to be crowned?</p>
+  <p>Meanwhile, Mussolini Nick G’s team had a less-than-stellar year, clinching the title no one wants—the reigning "shit bowl" loser. Redemption is a long road, but hey, there's nowhere to go but up, right? Can Mussolini rise from the ashes, or will he remain at the bottom of the heap?</p>
+  <p>The first rookie draft has just kicked off, and the buzz is electric. Analysis and expert opinions are just around the corner, so stay tuned to see who’s making the smart moves and who’s rolling the dice on pure luck. Will the rookies shake up the league, or will the veterans maintain their dominance?</p>
+  <p>The New York Hot Steppers, under Chew’s command, are stirring the pot in a big way. There’s a power struggle brewing as Chewy, dubbed "the people's commish," leads an insurrection against Mussolini Nick G for the league commissioner title. This showdown could reshape the league as we know it. Will Chewy seize control, or will Mussolini cling to power?</p>
+  <p>Over in Matty P’s camp, Back Field Penetration is starting to show its age. Rumor has it they’re about to apply for social security! Will experience and wisdom carry them through another season, or is it time to hang up the cleats? Is there one last run left, or will Father Time finally claim his due?</p>
+  <p>Will Walshie ever reclaim his fingertip? Will Bob find love in the Alamo? Will Max Gold do anything of value? Will Tyler ever stop clacking on his keyboard? Will Dimitri ever stop making shady phone calls? Will Vin bounce back from Lyme disease? Will Mayo hang himself, or will his opponent be the one to dangle? Tune into The League's 2024-2025 Dynasty Fantasy Football Season to find out!</p>
 `;
 
 /*   STEP 3   */
