@@ -26,73 +26,259 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
   {
-    "roster": 1,
-    "managerID": "645466755229270016", 
-    "name": "Tyler Dodd",
-    "tookOver": null,
-    "location": "Chiraq",
-    "bio": "test",
-    "photo": "/managers/john.jpg", 
-    "fantasyStart": null, 
-    "favoriteTeam": "nyg", 
+    "managerID": "645466755229270016",
+    "name": "tdodd777",
+    "location": "Location not provided", // Replace if known
+    "bio": "Good guys",
+    "photo": "https://sleepercdn.com/uploads/3a2d7c1d78c1761704cb40f2f23b965e.jpg",
+    "fantasyStart": null,
+    "favoriteTeam": null, // Replace if known
     "mode": "Win Now",
     "rival": {
-      name: "Jane Doe", 
-      link: 2, 
-      image: "/managers/jane.jpg", 
+      name: "Rival Name", // Replace if known
+      link: null,
+      image: "/managers/question.png",
     },
-    "favoritePlayer": 1426, 
-    "valuePosition": "WR", 
-    "rookieOrVets": "Rookies", 
+    "favoritePlayer": null, // Replace if known
+    "valuePosition": null, // Replace if known
+    "rookieOrVets": "Rookies",
     "philosophy": "Dominate the league every year.",
-    "tradingScale": 10, 
-    "preferredContact": "Text", 
+    "tradingScale": 10,
+    "preferredContact": "Text",
   },
-    // {
-    //   "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    //   "name": "Your Name",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-    //   "location": "Brooklyn", // (optional)
-    //   "bio": "Lorem ipsum...",
-    //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-    //   "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-    //   "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-    //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-    //   "rival": {
-    //     name: "Rival", // Can be anything (usually your rival's name)
-    //     link: 6, // manager array number within this array, or null to link back to all managers page
-    //     image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-    //   },
-    //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    //   "philosophy": "Your fantasy team's philosophy",
-    //   "tradingScale": 10, // 1 - 10
-    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-    // {
-    //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    //   "name": "Your Name",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-    //   "location": "Brooklyn", // (optional)
-    //   "bio": "Lorem ipsum...",
-    //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-    //   "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-    //   "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-    //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-    //   "rival": {
-    //     name: "Rival", // Can be anything (usually your rival's name)
-    //     link: 6, // manager array number within this array, or null to link back to all managers page
-    //     image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-    //   },
-    //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    //   "philosophy": "Your fantasy team's philosophy",
-    //   "tradingScale": 10, // 1 - 10
-    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-  ]
+  {
+    "managerID": "869048196658290688",
+    "name": "NickGuaglione",
+    "location": "Location not provided",
+    "bio": "Mussolini",
+    "photo": "https://sleepercdn.com/uploads/371554db83cf917378abe28949c1be88.jpg",
+    "fantasyStart": null,
+    "favoriteTeam": null,
+    "mode": "Win Now",
+    "rival": {
+      name: "Rival Name",
+      link: null,
+      image: "/managers/question.png",
+    },
+    "favoritePlayer": null,
+    "valuePosition": null,
+    "rookieOrVets": "Rookies",
+    "philosophy": "Win at all costs.",
+    "tradingScale": 8,
+    "preferredContact": "Sleeper",
+  },
+  {
+    "managerID": "996628148437467136",
+    "name": "maxgoldsholle",
+    "location": "Location not provided",
+    "bio": "Hawk Tua",
+    "photo": "https://sleepercdn.com/images/v2/avatars/avatar_default_green.webp",
+    "fantasyStart": null,
+    "favoriteTeam": null,
+    "mode": "Rebuild",
+    "rival": {
+      name: "Rival Name",
+      link: null,
+      image: "/managers/question.png",
+    },
+    "favoritePlayer": null,
+    "valuePosition": "QB",
+    "rookieOrVets": "Rookies",
+    "philosophy": "Patience is key.",
+    "tradingScale": 7,
+    "preferredContact": "Email",
+  },
+  {
+    "managerID": "996628221422628864",
+    "name": "Damtree22",
+    "location": "Location not provided",
+    "bio": null, // No team name provided
+    "photo": null, // No avatar provided
+    "fantasyStart": null,
+    "favoriteTeam": null,
+    "mode": null,
+    "rival": {
+      name: "Rival Name",
+      link: null,
+      image: "/managers/question.png",
+    },
+    "favoritePlayer": null,
+    "valuePosition": null,
+    "rookieOrVets": null,
+    "philosophy": null,
+    "tradingScale": null,
+    "preferredContact": "Text",
+  },
+  {
+    "managerID": "996628370026786816",
+    "name": "lwalshe17",
+    "location": "Location not provided",
+    "bio": null, // No team name provided
+    "photo": null, // No avatar provided
+    "fantasyStart": null,
+    "favoriteTeam": null,
+    "mode": null,
+    "rival": {
+      name: "Rival Name",
+      link: null,
+      image: "/managers/question.png",
+    },
+    "favoritePlayer": null,
+    "valuePosition": null,
+    "rookieOrVets": null,
+    "philosophy": null,
+    "tradingScale": null,
+    "preferredContact": "Text",
+  },
+  {
+    "managerID": "996628375248613376",
+    "name": "bob714",
+    "location": "Location not provided",
+    "bio": null, // No team name provided
+    "photo": "https://sleepercdn.com/uploads/9022819029eaef8f72f22593f5a949b5.jpg",
+    "fantasyStart": null,
+    "favoriteTeam": null,
+    "mode": null,
+    "rival": {
+      name: "Rival Name",
+      link: null,
+      image: "/managers/question.png",
+    },
+    "favoritePlayer": null,
+    "valuePosition": null,
+    "rookieOrVets": null,
+    "philosophy": null,
+    "tradingScale": null,
+    "preferredContact": "Text",
+  },
+  {
+    "managerID": "996628431523627008",
+    "name": "Braio",
+    "location": "Location not provided",
+    "bio": "Cleveland Steamers",
+    "photo": "https://sleepercdn.com/uploads/033157955b114eeda2f7d0622b30c654.jpg",
+    "fantasyStart": null,
+    "favoriteTeam": null,
+    "mode": null,
+    "rival": {
+      name: "Rival Name",
+      link: null,
+      image: "/managers/question.png",
+    },
+    "favoritePlayer": null,
+    "valuePosition": null,
+    "rookieOrVets": null,
+    "philosophy": null,
+    "tradingScale": null,
+    "preferredContact": "Text",
+  },
+  {
+    "managerID": "996628442974068736",
+    "name": "mattyp2685",
+    "location": "Location not provided",
+    "bio": "Backfield Penetration",
+    "photo": null, // No avatar provided
+    "fantasyStart": null,
+    "favoriteTeam": null,
+    "mode": null,
+    "rival": {
+      name: "Rival Name",
+      link: null,
+      image: "/managers/question.png",
+    },
+    "favoritePlayer": null,
+    "valuePosition": null,
+    "rookieOrVets": null,
+    "philosophy": null,
+    "tradingScale": null,
+    "preferredContact": "Text",
+  },
+  {
+    "managerID": "996628478122405888",
+    "name": "vinnyvarone21",
+    "location": "Location not provided",
+    "bio": "Suicidal Sheep",
+    "photo": "https://sleepercdn.com/uploads/d3c76498d3de8166a5dfb2f2bd099fd7.jpg",
+    "fantasyStart": null,
+    "favoriteTeam": null,
+    "mode": null,
+    "rival": {
+      name: "Rival Name",
+      link: null,
+      image: "/managers/question.png",
+    },
+    "favoritePlayer": null,
+    "valuePosition": null,
+    "rookieOrVets": null,
+    "philosophy": null,
+    "tradingScale": null,
+    "preferredContact": "Text",
+  },
+  {
+    "managerID": "996628992037908480",
+    "name": "nmeyer5691",
+    "location": "Location not provided",
+    "bio": "New York Hotsteppers",
+    "photo": "https://sleepercdn.com/uploads/f48a0951da377d1d411053b44d6e6a70.jpg",
+    "fantasyStart": null,
+    "favoriteTeam": null,
+    "mode": null,
+    "rival": {
+      name: "Rival Name",
+      link: null,
+      image: "/managers/question.png",
+    },
+    "favoritePlayer": null,
+    "valuePosition": null,
+    "rookieOrVets": null,
+    "philosophy": null,
+    "tradingScale": null,
+    "preferredContact": "Text",
+  },
+  {
+    "managerID": "996629628519329792",
+    "name": "mbernzweig",
+    "location": "Location not provided",
+    "bio": "Captain Flacco’s",
+    "photo": null, // No avatar provided
+    "fantasyStart": null,
+    "favoriteTeam": null,
+    "mode": null,
+    "rival": {
+      name: "Rival Name",
+      link: null,
+      image: "/managers/question.png",
+    },
+    "favoritePlayer": null,
+    "valuePosition": null,
+    "rookieOrVets": null,
+    "philosophy": null,
+    "tradingScale": null,
+    "preferredContact": "Text",
+  },
+  {
+    "managerID": "996629818110160896",
+    "name": "ghueber",
+    "location": "Location not provided",
+    "bio": "JAH MYR BOY",
+    "photo": null, // No avatar provided
+    "fantasyStart": null,
+    "favoriteTeam": null,
+    "mode": null,
+    "rival": {
+      name: "Rival Name",
+      link: null,
+      image: "/managers/question.png",
+    },
+    "favoritePlayer": null,
+    "valuePosition": null,
+    "rookieOrVets": null,
+    "philosophy": null,
+    "tradingScale": null,
+    "preferredContact": "Text",
+  }
+];
+
   
   
   /*   !!  !!  IMPORTANT  !!  !! */
