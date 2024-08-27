@@ -26,9 +26,9 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     // {
-    "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+    //   "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
     //   "managerID" : "645466755229270016", 
-	//   "name": "Tyler",
+    //   "name": "Tyler",
     //   "location": "Chiraq", // (optional)
     //   "bio": "Team is young and hungry",
     //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -46,6 +46,8 @@ export const managers = [
     //   "tradingScale": 10, // 1 - 10
     //   "preferredContact": "Text <- Read it again, Dimitri", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     // },
+];
+
     // {
     //   "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
     //   "name": "Your Name",
