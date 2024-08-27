@@ -24,30 +24,32 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 // To omit an optional field, set it's value to null
 
-	export const managers = [
-    {
-      "roster": 1,  // ID of the roster that the manager manages
-      "managerID": "645466755229270016", // The user ID of the manager from the Sleeper API
-      "name": "Tyler Dodd",
-      "tookOver": , // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Chiraq", // (optional)
-      "bio": "test",
-      "photo": "/managers/john.jpg", // square ratio recommended (no larger than 500x500)
-      "fantasyStart": , // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "nyg", // (optional) favorite NFL team
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild'
-      "rival": {
-        name: "Jane Doe", // The rival's name
-        link: 2, // manager array number within this array
-        image: "/managers/jane.jpg", // a specific manager photo
-      },
-      "favoritePlayer": 1426, // (optional) corresponds to the Sleeper player ID
-      "valuePosition": "WR", // (optional) Favorite position
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets'
-      "philosophy": "Dominate the league every year.",
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', etc.
+export const managers = [
+  {
+    "roster": 1,  // ID of the roster that the manager manages
+    "managerID": "645466755229270016", // The user ID of the manager from the Sleeper API
+    "name": "Tyler Dodd",
+    "tookOver": null, // (optional) used if a manager took over a team
+    "location": "Chiraq", // (optional)
+    "bio": "test",
+    "photo": "/managers/john.jpg", // square ratio recommended (no larger than 500x500)
+    "fantasyStart": null, // (optional) when did the manager start playing fantasy football
+    "favoriteTeam": "nyg", // (optional) favorite NFL team
+    "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild'
+    "rival": {
+      name: "Jane Doe", // The rival's name
+      link: 2, // manager array number within this array
+      image: "/managers/jane.jpg", // a specific manager photo
     },
+    "favoritePlayer": 1426, // (optional) corresponds to the Sleeper player ID
+    "valuePosition": "WR", // (optional) Favorite position
+    "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets'
+    "philosophy": "Dominate the league every year.",
+    "tradingScale": 10, // 1 - 10
+    "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', etc.
+  },
+];
+
     // {
     //   "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
     //   "name": "Your Name",
