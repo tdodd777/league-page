@@ -28,23 +28,22 @@ export const managers = [
   {
     "managerID": "645466755229270016",
     "name": "tdodd777",
-    "location": "Chiraq",
+    "location": "Chiraq", // Replace if known
     "bio": "Good guys",
     "photo": "https://sleepercdn.com/uploads/3a2d7c1d78c1761704cb40f2f23b965e.jpg",
-    "fantasyStart": null,
-    "favoriteTeam": "nyg",
+    "favoriteTeam": "nyg", // Replace if known
     "mode": "Win Now",
     "rival": {
-      name: "Nick G",
+      name: "NickGuaglione", 
       link: 2,
-      image: "/managers/question.png"
+      image: "/managers/question.png",
     },
-    "favoritePlayer": 777,
-    "valuePosition": "QB",
+    "favoritePlayer": 777, // Replace if known
+    "valuePosition": "QB", // Replace if known
     "rookieOrVets": "Rookies",
-    "philosophy": "Dominate the league every year.",
+    "philosophy": "Yesterday is history, tomorrow is a mystery, but today is a gift.",
     "tradingScale": 10,
-    "preferredContact": "Text"
+    "preferredContact": "Text",
   },
   {
     "managerID": "869048196658290688",
@@ -52,20 +51,19 @@ export const managers = [
     "location": "Commack, NY",
     "bio": "Mussolini",
     "photo": "https://sleepercdn.com/uploads/371554db83cf917378abe28949c1be88.jpg",
-    "fantasyStart": null,
     "favoriteTeam": "nyg",
     "mode": "Win Now",
     "rival": {
-      name: "Chewy",
-      link: 10,
-      image: "/managers/question.png"
+      name: "maxgoldsholle",
+      link: 3,
+      image: "/managers/question.png",
     },
     "favoritePlayer": 1093,
     "valuePosition": "TE",
     "rookieOrVets": "Rookies",
-    "philosophy": "Win at all costs.",
+    "philosophy": "There are no accidents, everything happens for a reason.",
     "tradingScale": 8,
-    "preferredContact": "Sleeper"
+    "preferredContact": "Sleeper",
   },
   {
     "managerID": "996628148437467136",
@@ -73,83 +71,79 @@ export const managers = [
     "location": "Long Beach, Swamp",
     "bio": "Hawk Tua",
     "photo": "https://sleepercdn.com/images/v2/avatars/avatar_default_green.webp",
-    "fantasyStart": null,
     "favoriteTeam": "nyj",
     "mode": "Rebuild",
     "rival": {
-      name: "Vin",
-      link: 9,
-      image: "/managers/question.png"
+      name: "Damtree22",
+      link: 4,
+      image: "/managers/question.png",
     },
     "favoritePlayer": 1234,
     "valuePosition": "QB",
     "rookieOrVets": "Rookies",
-    "philosophy": "Patience is key.",
+    "philosophy": "The true path to victory is to find your own way.",
     "tradingScale": 7,
-    "preferredContact": "Email"
+    "preferredContact": "Email",
   },
   {
     "managerID": "996628221422628864",
     "name": "Damtree22",
     "location": "The Deep South",
-    "bio": null,
-    "photo": null,
-    "fantasyStart": null,
+    "bio": null, // No team name provided
+    "photo": null, // No avatar provided
     "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
-      name: "Bmayo",
-      link: 7,
-      image: "/managers/question.png"
+      name: "lwalshe17",
+      link: 5,
+      image: "/managers/question.png",
     },
     "favoritePlayer": 1192,
     "valuePosition": "WR",
     "rookieOrVets": "Rookie",
-    "philosophy": null,
+    "philosophy": "The mark of a true hero is humility.",
     "tradingScale": 10,
-    "preferredContact": "Call"
+    "preferredContact": "Text",
   },
   {
     "managerID": "996628370026786816",
     "name": "lwalshe17",
     "location": "The Big Apple",
-    "bio": null,
-    "photo": null,
-    "fantasyStart": null,
+    "bio": null, // No team name provided
+    "photo": null, // No avatar provided
     "favoriteTeam": "cle",
     "mode": "Win Now",
     "rival": {
-      name: "Nick G",
-      link: 2,
-      image: "/managers/question.png"
+      name: "bob714",
+      link: 6,
+      image: "/managers/question.png",
     },
     "favoritePlayer": 832,
     "valuePosition": "QB",
     "rookieOrVets": "Rookie",
-    "philosophy": null,
+    "philosophy": "Inner peace comes from within.",
     "tradingScale": null,
-    "preferredContact": "Text"
+    "preferredContact": "Text",
   },
   {
     "managerID": "996628375248613376",
     "name": "bob714",
     "location": "The Alamo",
-    "bio": null,
+    "bio": null, // No team name provided
     "photo": "https://sleepercdn.com/uploads/9022819029eaef8f72f22593f5a949b5.jpg",
-    "fantasyStart": null,
-    "favoriteTeam": "stl",
+    "favoriteTeam": "pit",
     "mode": "Win Now",
     "rival": {
-      name: "Ging",
-      link: 11,
-      image: "/managers/question.png"
+      name: "Braio",
+      link: 7,
+      image: "/managers/question.png",
     },
     "favoritePlayer": 111,
     "valuePosition": "RB",
     "rookieOrVets": null,
-    "philosophy": null,
+    "philosophy": "You must believe in yourself and your abilities.",
     "tradingScale": 6,
-    "preferredContact": "Text"
+    "preferredContact": "Text",
   },
   {
     "managerID": "996628431523627008",
@@ -157,41 +151,39 @@ export const managers = [
     "location": "Gator Country",
     "bio": "Cleveland Steamers",
     "photo": "https://sleepercdn.com/uploads/033157955b114eeda2f7d0622b30c654.jpg",
-    "fantasyStart": null,
     "favoriteTeam": "dal",
     "mode": null,
     "rival": {
-      name: "Bob",
-      link: 6,
-      image: "/managers/question.png"
+      name: "mattyp2685",
+      link: 8,
+      image: "/managers/question.png",
     },
     "favoritePlayer": 691,
     "valuePosition": "WR",
     "rookieOrVets": "Vets",
-    "philosophy": null,
+    "philosophy": "A warrior never gives up on what he loves.",
     "tradingScale": null,
-    "preferredContact": "Text"
+    "preferredContact": "Text",
   },
   {
     "managerID": "996628442974068736",
     "name": "mattyp2685",
     "location": "Lost",
     "bio": "Backfield Penetration",
-    "photo": null,
-    "fantasyStart": null,
+    "photo": null, // No avatar provided
     "favoriteTeam": "nyg",
     "mode": "Rebuilding",
     "rival": {
-      name: "Himself",
-      link: 8,
-      image: "/managers/question.png"
+      name: "vinnyvarone21",
+      link: 9,
+      image: "/managers/question.png",
     },
     "favoritePlayer": 937,
     "valuePosition": "WR",
     "rookieOrVets": "Rookie",
-    "philosophy": null,
+    "philosophy": "The journey is the reward.",
     "tradingScale": 0,
-    "preferredContact": "Text"
+    "preferredContact": "Text",
   },
   {
     "managerID": "996628478122405888",
@@ -199,20 +191,19 @@ export const managers = [
     "location": "With mom",
     "bio": "Suicidal Sheep",
     "photo": "https://sleepercdn.com/uploads/d3c76498d3de8166a5dfb2f2bd099fd7.jpg",
-    "fantasyStart": null,
     "favoriteTeam": "nyj",
     "mode": "Win Now",
     "rival": {
-      name: "Rival Name",
-      link: null,
-      image: "/managers/question.png"
+      name: "nmeyer5691",
+      link: 10,
+      image: "/managers/question.png",
     },
     "favoritePlayer": 583,
     "valuePosition": "QB",
     "rookieOrVets": null,
-    "philosophy": null,
+    "philosophy": "To make something special, you just have to believe it's special.",
     "tradingScale": null,
-    "preferredContact": "Text"
+    "preferredContact": "Text",
   },
   {
     "managerID": "996628992037908480",
@@ -220,67 +211,62 @@ export const managers = [
     "location": "Ze Tower",
     "bio": "New York Hotsteppers",
     "photo": "https://sleepercdn.com/uploads/f48a0951da377d1d411053b44d6e6a70.jpg",
-    "fantasyStart": null,
     "favoriteTeam": "nyg",
     "mode": "Win Now",
     "rival": {
-      name: "Mussolini",
-      link: 2,
-      image: "/managers/question.png"
+      name: "mbernzweig",
+      link: 11,
+      image: "/managers/question.png",
     },
     "favoritePlayer": 293,
     "valuePosition": "RB",
     "rookieOrVets": "Rookie",
-    "philosophy": "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.",
+    "philosophy": "The past is gone, the future is yet to come, but now is a gift.",
     "tradingScale": 8,
-    "preferredContact": "Text"
+    "preferredContact": "Text",
   },
   {
     "managerID": "996629628519329792",
     "name": "mbernzweig",
     "location": "Long Beach, Swamp",
     "bio": "Captain Flacco’s",
-    "photo": null,
-    "fantasyStart": null,
+    "photo": null, // No avatar provided
     "favoriteTeam": "nyg",
     "mode": "Win Now",
     "rival": {
-      name: "Max Coldslaw",
-      link: 3,
-      image: "/managers/question.png"
+      name: "ghueber",
+      link: 12,
+      image: "/managers/question.png",
     },
     "favoritePlayer": 482,
     "valuePosition": "QB",
     "rookieOrVets": "Rookie",
-    "philosophy": null,
+    "philosophy": "You must find your own path in life.",
     "tradingScale": 10,
-    "preferredContact": "Text"
+    "preferredContact": "Text",
   },
   {
     "managerID": "996629818110160896",
     "name": "ghueber",
     "location": "Long Beach, Swamp",
     "bio": "JAH MYR BOY",
-    "photo": null,
-    "fantasyStart": null,
+    "photo": null, // No avatar provided
     "favoriteTeam": "kc",
     "mode": "Win Now",
     "rival": {
-      name: "Rival Name",
-      link: null,
-      image: "/managers/question.png"
+      name: "tdodd777",
+      link: 1,
+      image: "/managers/question.png",
     },
     "favoritePlayer": 492,
     "valuePosition": "TE",
     "rookieOrVets": "Vets",
-    "philosophy": null,
+    "philosophy": "Your real strength comes from being the best you can be.",
     "tradingScale": 8,
-    "preferredContact": "Text"
+    "preferredContact": "Text",
   }
 ];
 
-
-  
   
   /*   !!  !!  IMPORTANT  !!  !! */
   /*
